@@ -20,4 +20,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "Telewatch"
-include(":app")
+include(":app", ":libtd")
