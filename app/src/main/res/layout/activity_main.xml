@@ -51,7 +51,7 @@
 
     <Button
         android:id="@+id/Start_messaging"
-        android:layout_width="142dp"
+        android:layout_width="148dp"
         android:layout_height="33dp"
         android:background="@drawable/button_rounded"
         android:text="@string/Start_messaging"
@@ -63,7 +63,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:paddingTop="8dp"
+        android:paddingTop="12dp"
         android:text="@string/Network"
         android:textColor="#5F92D5" />
 </LinearLayout>

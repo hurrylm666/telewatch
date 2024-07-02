@@ -3,4 +3,7 @@
     <string name="Start_messaging">Start messaging</string>
     <string name="Welcome_to_app">Welcome to telewatch app</string>
     <string name="Network">Network</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="scan_qr">Scan Form Telegram</string>
+    <string name="loading">loading...</string>
 </resources>

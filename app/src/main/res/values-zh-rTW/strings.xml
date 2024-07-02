@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name" translatable="false">Telewatch</string>
+    <string name="Start_messaging">開始</string>
+    <string name="Welcome_to_app">歡迎使用Telewatch應用程式</string>
+    <string name="Network">網路設定</string>
+    <string name="title_activity_login">登入活動</string>
+    <string name="scan_qr">手機掃碼登入</string>
+    <string name="loading">載入中...</string>
+</resources>
