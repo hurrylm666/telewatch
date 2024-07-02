@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Telewatch" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#000000</item> <!-- 这一行将背景色设为黑色 -->
+    </style>
+    <style name="AppTheme.Launcher" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/ic_launcher_foreground</item>
+    </style>
+</resources>
