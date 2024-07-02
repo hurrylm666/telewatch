@@ -1,0 +1,2 @@
+com.tdlib.td
+string app_name
