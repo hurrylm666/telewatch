@@ -7,6 +7,10 @@ android {
     namespace = "com.hurrylm666.telewatch"
     compileSdk = 34
 
+    buildFeatures {
+        viewBinding = true
+    }
+
     defaultConfig {
         applicationId = "com.hurrylm666.telewatch"
         minSdk = 22
