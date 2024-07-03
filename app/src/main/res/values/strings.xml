@@ -6,4 +6,5 @@
     <string name="title_activity_login">LoginActivity</string>
     <string name="scan_qr">Scan Form Telegram</string>
     <string name="loading">loading...</string>
+    <string name="Request_error" translatable="false">Request error</string>
 </resources>
