@@ -3,7 +3,16 @@
     <string name="Start_messaging">开始</string>
     <string name="Welcome_to_app">欢迎使用Telewatch</string>
     <string name="Network">网络设置</string>
+    <string name="Password">密码</string>
+    <string name="Password_Error">密码错误</string>
+    <string name="Done">继续</string>
     <string name="title_activity_login">登录活动</string>
     <string name="scan_qr">手机扫码登录</string>
     <string name="loading">加载中...</string>
+    <string name="Setting">设置</string>
+    <string name="Clearing_cache">清除缓存</string>
+    <string name="Reset_libtd">重置libtd</string>
+    <string name="Reset_self">重置软件</string>
+    <string name="Successful">成功！</string>
+    <string name="Request_error">请求错误</string>
 </resources>

@@ -1,5 +1,6 @@
 package com.hurrylm666.telewatch
 
+import android.content.Context
 import android.os.Bundle
 import android.os.Handler
 import android.content.Intent
@@ -13,11 +14,23 @@ class launchActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.launch_screen)
 
+        val sharedPref = getSharedPreferences("LoginPref", Context.MODE_PRIVATE)
+        val isLoggedIn = sharedPref.getBoolean("isLoggedIn", false)
 
-        Handler(Looper.getMainLooper()).postDelayed({
-            // 这里是跳转逻辑，例如跳转到MainActivity
-            startActivity(Intent(this, MainActivity::class.java))
-            finish()
-        }, 0) // 这里的2000ms就是启动画面显示的时间
+        if (!isLoggedIn) {
+            // 如果未登录，打开WelcomeActivity
+            Handler(Looper.getMainLooper()).postDelayed({
+                // 跳转逻辑
+                startActivity(Intent(this, WelcomeActivity::class.java))
+                finish()
+            }, 0) //启动画面显示的时间
+        }else{
+            // 如果已登录，打开MainActivity
+            Handler(Looper.getMainLooper()).postDelayed({
+                // 跳转逻辑
+                startActivity(Intent(this, MainActivity::class.java))
+                finish()
+            }, 0) //启动画面显示的时间
+        }
     }
 }

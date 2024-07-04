@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="15dp">
+
+    <FrameLayout
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:clipChildren="true">
+
+        <ImageView
+            android:id="@+id/imageView_ico"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:maxWidth="55dp"
+            android:maxHeight="55dp"
+            android:scaleType="centerCrop"
+            android:scaleX="1.4"
+            android:scaleY="1.4"
+            android:src="@drawable/splash_icon" />
+
+        <ImageView
+            android:id="@+id/imageView_hs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/circle"/>
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/Telewatch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:breakStrategy="balanced"
+        android:gravity="center"
+        android:text="@string/app_name"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/Welcome_to_app"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:gravity="center"
+        android:text="@string/Welcome_to_app"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/Start_messaging"
+        android:layout_width="148dp"
+        android:layout_height="33dp"
+        android:background="@drawable/button_rounded_blue"
+        android:text="@string/Start_messaging"
+        android:textColor="#FFFFFF" />
+
+
+    <TextView
+        android:id="@+id/Setting"
+        android:layout_width="match_parent"
+        android:layout_height="28dp"
+        android:gravity="center"
+        android:paddingTop="12dp"
+        android:text="@string/Setting"
+        android:textColor="#5F92D5" />
+</LinearLayout>
