@@ -6,10 +6,17 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
+import android.view.MotionEvent
+import android.view.MotionEvent.ACTION_HOVER_MOVE
+import android.view.MotionEvent.ACTION_SCROLL
+import android.view.ViewConfiguration
 import android.widget.ArrayAdapter
 import android.widget.Toast
 import androidx.activity.ComponentActivity
 import androidx.activity.enableEdgeToEdge
+import androidx.core.view.InputDeviceCompat
+import androidx.core.view.MotionEventCompat
+import androidx.core.view.ViewConfigurationCompat
 import com.hurrylm666.telewatch.databinding.SettingActivityBinding
 import java.io.File
 
@@ -44,6 +51,9 @@ class SettingActivity : ComponentActivity() {
 
         // 给ListView设置适配器
         binding.listview.adapter = adapter
+
+        // 设置ListView为焦点
+        binding.listview.requestFocus()
 
         // ListView 设置点击事件监听器
         binding.listview.setOnItemClickListener { parent, view, position, id ->

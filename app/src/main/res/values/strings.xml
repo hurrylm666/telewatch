@@ -18,4 +18,5 @@
     <string name="Request_error">Request error</string>
     <string name="title_activity_main" translatable="false">MainActivity</string>
     <string name="title_activity_setting" translatable="false">SettingActivity</string>
+    <string name="HOME">HOME</string>
 </resources>
